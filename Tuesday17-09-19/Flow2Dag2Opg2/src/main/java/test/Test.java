@@ -21,7 +21,7 @@ public class Test {
 
 
     public static void main(String[] args) {
-        //Persistence.generateSchema("pu", null);
+        Persistence.generateSchema("pu", null);
 
         Customer c1 = new Customer("Svens12", "Boy12");
         Address a1 = new Address("Vej 1", "ByByen");
